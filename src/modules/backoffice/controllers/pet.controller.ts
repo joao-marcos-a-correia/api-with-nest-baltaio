@@ -11,7 +11,7 @@ import {
 import { CreatePetContract } from '../contracts/pet/create-pet.contract';
 import { Result } from './../models/result.model';
 import { Pet } from '../models/pet.model';
-import { ValidatorInterceptor } from 'src/interceptors/validator.interceptor';
+import { ValidatorInterceptor } from './../../../interceptors/validator.interceptor';
 import { PetService } from '../services/pet.service';
 
 @Controller('v1/pets')

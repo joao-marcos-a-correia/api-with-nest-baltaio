@@ -23,7 +23,7 @@ import { CustomerService } from '../services/customer.service';
 import { Customer } from '../models/customer.model';
 import { CreateCustomerDto } from '../dtos/customer/create.customer.dto';
 import { QueryDto } from '../dtos/query.dto';
-import { ValidatorInterceptor } from 'src/interceptors/validator.interceptor';
+import { ValidatorInterceptor } from './../../../interceptors/validator.interceptor';
 
 @Controller('v1/customers')
 export class CustomerController {

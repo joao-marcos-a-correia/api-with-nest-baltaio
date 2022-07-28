@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import { ProductService } from '../services/product.service';
 import { Product } from '../entities/product.entity';
-import { Result } from 'src/modules/backoffice/models/result.model';
+import { Result } from '../../../modules/backoffice/models/result.model';
 
 @Controller('v1/products')
 export class ProductController {

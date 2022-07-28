@@ -4,7 +4,7 @@ import { Body, Controller, Param, Post, UseInterceptors } from '@nestjs/common';
 import { CreateAddressContract } from '../contracts/address/create-address.contract';
 import { Address } from './../models/address.model';
 import { Result } from './../models/result.model';
-import { ValidatorInterceptor } from 'src/interceptors/validator.interceptor';
+import { ValidatorInterceptor } from './../../../interceptors/validator.interceptor';
 import { AddressService } from '../services/address.service';
 import { AddressType } from '../enums/address.type.enum';
 

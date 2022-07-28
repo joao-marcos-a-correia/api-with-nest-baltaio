@@ -7,13 +7,13 @@ import {
   Body,
   Param,
 } from '@nestjs/common';
-import { OrderService } from 'src/modules/store/services/order.service';
-import { Order } from 'src/modules/store/entities/order.entity';
+import { OrderService } from '../../../modules/store/services/order.service';
+import { Order } from '../../../modules/store/entities/order.entity';
 import { OrderItemDto } from '../dtos/order-item.dto';
 import { OrderItem } from '../entities/order-item.entity';
 import { ProductService } from '../services/product.service';
 import { OrderItemService } from '../services/order-item.service';
-import { Result } from 'src/modules/backoffice/models/result.model';
+import { Result } from '../../../modules/backoffice/models/result.model';
 
 @Controller('v1/orders')
 export class OrderController {

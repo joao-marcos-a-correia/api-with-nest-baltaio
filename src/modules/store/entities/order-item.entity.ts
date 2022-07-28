@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, ManyToOne, Column } from 'typeorm';
-import { Product } from 'src/modules/store/entities/product.entity';
-import { Order } from 'src/modules/store/entities/order.entity';
+import { Product } from '../../../modules/store/entities/product.entity';
+import { Order } from '../../../modules/store/entities/order.entity';
 
 @Entity()
 export class OrderItem {
